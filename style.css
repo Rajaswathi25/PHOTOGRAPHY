@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 200vh;
+    background-color:#f0ccdf;
+}
+.one{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    align-content: center;
+    margin-bottom: 5px;
+    margin-left:350px ;
+    
+}
+.two{
+    background-color: #f0ccdf;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    /* width: 100vw;
+    height: 50vh; */
+}
+.three{
+    background-color: #f0ccdf;
+    margin-bottom: 5px;
+    /* width: 100vw;
+    height: 50vh; */
+}
+.four{
+    background-color: #f0ccdf;
+    margin-bottom: 5px;
+    /* width: 100vw;
+    height: 50vh; */
+}
+.banner{
+    background:white;
+    /* width: 1000px;
+    height: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+    
+}
+#firstImage{
+    width: 70vw;
+    height:50vh;
+    padding-bottom: 10px;
+}
+#secondImage{
+    width: 70vw;
+    height:50vh;
+}
+#firstImageName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 300px;
+}
+
+#secondImageName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 300px;
+    font-family: 'Arima', cursive;
+
+}
+#thirdImage{
+    width: 70vw;
+    height:50vh;
+}
+#fourthImage{
+    width: 70vw;
+    height:50vh;
+}
+#thirdImageName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 300px;
+}
+#ourWork{
+    
+    padding-left: 200px;
+    /* background-color: black; */
+    padding-top: 20px ;
+   
+}
+
+.div{
+    padding-top: 10px;
+   background-color: black;
+   width: 70vw;
+   height: 10vh;
+}
+
+#backGroundImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 25vw;
+    height: 50vh;
+    margin-left: 40vh;
+    /* margin-right: 0; */
+}
+#viewWork{
+    cursor: pointer;
+    text-decoration: none;
+    border: 5px solid black;
+    border-radius: 10%;
+    /* display: inline-block; */
+    padding: 4px;
+    background-color: antiquewhite;
+    color: black;
+}
+#viewWork:hover{
+    color:#f505f1;
+}
